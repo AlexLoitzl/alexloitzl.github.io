@@ -13,7 +13,7 @@ taxonomies:
 menu:
     main:
         - name: Publications
-          url: publ/
+          url: publications/
           weight: 10
         - name: Projects
           url: projects/
@@ -55,13 +55,13 @@ params:
     profileMode:
           enabled: true
           title: Alex Loitzl
-          subtitle: "I'm a PhD student in <a href='https://pub.ista.ac.at/~msammler/'> Michael Sammler's</a> <a href='https://ista.ac.at/en/research/sammler-group/'> Programming Languages and Verification Group </a> at the <a href='https://ista.ac.at'> Institute of Science and Technology Austria</a>. My interests are in the modeling and verification of complex systems, ideally realistic ones. At the moment I am working with <a href='https://plv.mpi-sws.org/dimsum/'>DimSum</a>, an Iris framework for multi-language reasoning. Previously, I was contributing to the (industrial) version of CompCert at <a href='https://www.absint.com'>AbsInt</a> in Saarbrücken. "
+          subtitle: "I'm a PhD student in <a href='https://pub.ista.ac.at/~msammler/'> Michael Sammler's</a> <a href='https://ista.ac.at/en/research/sammler-group/'> Programming Languages and Verification Group </a> at the <a href='https://ista.ac.at'> Institute of Science and Technology Austria</a>. My interests are in the modeling and verification of complex systems, ideally realistic ones. At the moment I am working with <a href='https://plv.mpi-sws.org/dimsum/'>DimSum</a>, an Iris framework for multi-language reasoning. Previously, I was contributing to the (industrial) version of CompCert at <a href='https://www.absint.com'>AbsInt</a> in Saarbrücken."
           imageUrl: "me.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
             - name: Publications
-              url: publ/
+              url: publications/
             - name: Projects
               url: projects/
             - name: News

@@ -31,6 +31,15 @@
     text-decoration: underline;
 }
 
+/* Render the links in the activities list*/
+.profile .profile_inner .activities-list a {
+    color: var(--darkcolor);
+}
+
+.profile .profile_inner .activities-list a:hover {
+    text-decoration: underline;
+}
+
 .profile img {
     border-radius: 50%;
     border: 1px solid var(--tertiary);

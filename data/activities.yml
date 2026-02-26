@@ -1,0 +1,8 @@
+- title: "Modelling Register Pairs in CompCert"
+  type: "Conference Paper"
+  authors: "Loitzl A., Zuleger F."
+  place: "IFM 24"
+  year: 2024
+  doi: "https://doi.org/10.1007/978-3-031-76554-4_8"
+  highlight: "Runners-up: Best Paper"
+  local: "/compcertp"

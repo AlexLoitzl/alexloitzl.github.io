@@ -1,0 +1,79 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[grey]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{publications.bib} % your .bib file
+
+
+% personal data
+\firstname{Alex}
+\familyname{Loitzl}
+%\title{Resumé title (optional)}
+%%\address{}{}
+\email{firstname.lastname@ista.ac.at}
+\address{Vienna, Austria}
+\extrainfo{\url{https://alexloitzl.github.io}}
+%\phone[fixed]{}
+%\extrainfo{additional information (optional)}
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\input{bd.tex}
+
+\maketitle
+
+\section{Education}
+\cventry{2024 -- ...$\quad\,$}{PhD Candiate}{Institute of Science and Technology Austria}{}{}{}
+\vspace{.2cm}
+\cventry{2021 -- 2024}{Masters Program Logic \& Computation}{TU Wien}{}{\textit{AT}}{Thesis: Modeling Register Pairs in CompCert. Advisor: Florian Zuleger \\\textbf{\textit{\small Runners-up: Best Master Thesis TU Wien Informatics}}}
+\vspace{.2cm}
+\cventry{2018 -- 2021}{Bachelors Program Computer Science}{Universität Salzburg}{}{\textit{AT}}{Thesis: 3-valued automata. Advisor: Ana Sokolova}
+
+\section{Working Experience}
+\cventry{7/23 -- 7/24}{Software Engineer}{AbsInt Informatik GmbH}{Saarbrücken, DE}{}{
+  Working on the backend of the CompCert Verified C compiler, first during an internship and then a master's thesis project.
+  \begin{itemize}
+    \item Improve code generation for function prologue and epilogue for CompCert
+    \item Implement a more precise register model and a new register allocator
+  \end{itemize}
+}
+\vspace{.2cm}
+\cventry{2020 \& 2021}{Software Engineer}{Salzburger Banken Software}{Salzburg, AT}{}{Summer internships. Implementing a microservice prototype banking application in Java and deploying it with Kubernetes}
+
+\section{Teaching Experience}
+\cventry{2019 -- 2021}{Teaching Assistant}{University of Salzburg}{}{}{
+  \begin{itemize}
+    \item \textit{Linear Algebra} 2021: Hold office ours for students and help with homeworks
+    \item \textit{Formal Systems} 2019, 2020: Recitations, working throught related problems and grade exams
+    \item \textit{Problem Solving and Algorithmic Thinking} 2019, Give lectures to non-computer scientists about basic problems in computer science
+  \end{itemize}}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\section{Publications}
+\cventry{2024}{Modeling Register Pairs in CompCert~\cite{compcertp}}{iFM24}{}{}{Alexander Loitzl, and Florian Zuleger. \\\textbf{\textit{\small Runners-up: Best Paper}}}
+\vspace{.2cm}
+
+% References
+\printbibliography
+\end{document}
+
+
+%% end of file `template_en.tex'.

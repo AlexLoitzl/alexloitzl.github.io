@@ -2,3 +2,14 @@
 public/
 resources/
 .hugo_build.lock
+# Tex build artifacts
+*.aux
+*.log
+*.bbl
+*.bcf
+*.blg
+*.auctex-auto
+*.out
+*.run.xml
+content/cv/*.pdf
+

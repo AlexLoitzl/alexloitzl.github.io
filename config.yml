@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://alexloitzl.github.io/"
+title: Alex Loitzl 
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,25 +12,25 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: Publications
+          url: publ/
+          weight: 10
+        - name: Projects
+          url: projects/
+          weight: 20
+        - name: News
+          url: news/
+          weight: 30
+        - name: Posts
+          url: blog/
+          weight: 40
+        - name: About Me
+          url: about/
+          weight: 50
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This is Alex Loitzl's personal website hosting research papers, curriculum vitae, and contact information."
+    author: Alex Loitzl
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -44,7 +44,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["publications","projects","about"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,50 +54,32 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          title: Alex Loitzl
+          subtitle: "I'm a PhD student in <a href='https://pub.ista.ac.at/~msammler/'> Michael Sammler's</a> <a href='https://ista.ac.at/en/research/sammler-group/'> Programming Languages and Verification Group </a> at the <a href='https://ista.ac.at'> Institute of Science and Technology Austria</a>. My interests are in the modeling and verification of complex systems, ideally realistic ones. At the moment I am working with <a href='https://plv.mpi-sws.org/dimsum/'>DimSum</a>, an Iris framework for multi-language reasoning. Previously, I was contributing to the (industrial) version of CompCert at <a href='https://www.absint.com'>AbsInt</a> in Saarbrücken. "
+          imageUrl: "me.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-
+            - name: Publications
+              url: publ/
+            - name: Projects
+              url: projects/
+            - name: News
+              url: news/
+            - name: Posts
+              url: blog/
+            - name: About Me
+              url: about/
     socialIcons:
+        - name: GitHub
+          url: https://github.com/alexloitzl
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/alexander-loitzl
+        # Email is custom to prevent scraping - It's overridden in layouts/partials/social_icons.html
+        - name: Email
+          url: "https://www.example.com"
         - name: CV
           url: cv.pdf
-        - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
         disableScrollBarStyle: true
@@ -105,8 +87,8 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
-      icon: favicon.ico
+      text: "Alex Loitzl"
+      icon: u1f424.svg
       iconHeight: 18
 
 markup:

@@ -6,3 +6,11 @@
   doi: "https://doi.org/10.1007/978-3-031-76554-4_8"
   highlight: "Runners-up: Best Paper"
   local: "/compcertp"
+
+- title: "Supporting Register Pairs in CompCert"
+  type: "Master's Thesis"
+  authors: "Loitzl A."
+  place: "TU Wien"
+  year: 2024
+  doi: "https://doi.org/10.34726/hss.2024.120444"
+  highlight: "Runners-up: Best Master Thesis TU Wien Informatics"

@@ -7,14 +7,8 @@ aliases:
 tags: ["program verification","compilers","semantics","register allocation","CompCert","Rocq"] 
 author: ["Alexander Loitzl", "Florian Zuleger"]
 description: "This paper extends the CompCert verified C compiler to support register pairs enhancing support for 32-bit architecture. Published in iFM24" 
-summary: "Paper summary for list page (less than 265 characters)"
+summary: "CompCert treats all registers the same, allocating an entire 64-bit pair for 32-bit values. This cuts the number of available registers in half and requires fix-up outside the formally verified compiler to comply with calling conventions. We introduce CompCertp, an extension to the CompCert compiler, which faithfully models register pairs, thereby reducing the TCB. We adapt the proofs for all CompCert-supported architectures and demonstrate that, despite a slight increase in compile time, CompCertp generates code that is either smaller or comparable in size to that produced by the original CompCert."
 
-
-
-cover:
-    image: "paper_figure.png"
-    alt: "Figure title (preferably 1280x720 pixels)"
-    relative: true
 editPost:
     URL: "https://doi.org/10.1007/978-3-031-76554-4_8"
     Text: "IFM 2024"
@@ -33,14 +27,6 @@ editPost:
 ##### Abstract:
 
 The CompCert C compiler is a moderately optimizing, formally verified compiler that ensures the preservation of the input program’s semantics through a machine-checkable correctness proof. We introduce CompCertp , an extension of the CompCert compiler, which incorporates the modeling of register pairs. This enhancement targets 32-bit architectures, such as the 32-bit Arm, which combine two registers to support 64-bit operands. So far, CompCert abstracts register pairs as 64-bit registers and allocates the entire pair when operating on 32-bit values, effectively cutting the number of available registers for 32-bit computations in half. This creates a harder register allocation problem and the emitted code requires post-processing outside of the formally verified compiler to comply with calling conventions. Our enhancement models all of Arm’s registers, improving register allocation and the generated code’s size. Additionaly, it models the correct calling conventions for floating-point arguments within the formal semantics, eliminating the need for unverified modifications and therefore decreasing the trusted computing base (TCB). We adapt the proofs for all CompCert-supported architectures and demonstrate that, despite a slight increase in compile time, CompCertp generates code that is either smaller or comparable in size to that produced by the original CompCert.
-
----
-
-##### Figure X:  Figure title
-
-![](figurex.png)
-
----
 
 ##### Citation
 Loitzl, A., Zuleger, F. (2025). Modeling Register Pairs in CompCert. In: Kosmatov, N., Kovács, L. (eds) Integrated Formal Methods. IFM 2024. Lecture Notes in Computer Science, vol 15234. Springer, Cham. https://doi.org/10.1007/978-3-031-76554-4_8

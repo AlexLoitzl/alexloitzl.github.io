@@ -65,6 +65,7 @@ params:
               url: blog/
             - name: Bits
               url: bits/
+    # I will split social icons visually, with more casual ones after a | to be defined in funIcons
     socialIcons:
         - name: Email
           url: "https://www.example.com"
@@ -75,6 +76,11 @@ params:
         # Email is custom to prevent scraping - It's overridden in layouts/partials/social_icons.html
         - name: CV
           url: cv.pdf
+    funIcons:
+        - name: Discogs
+          url: https://www.discogs.com/user/lexiboiiii
+        - name: Bandcamp
+          url: https://bandcamp.com/lexiboiii
 
     assets:
         disableScrollBarStyle: true

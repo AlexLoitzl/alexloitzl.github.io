@@ -41,6 +41,14 @@
     color: var(--darkcolor);
 }
 
+.social-icons .separator {
+    display: inline-block;
+    width: 2px;                 /* thin vertical line */
+    height: 24px;               /* match icon height */
+    background-color: var(--secondary); /* or any color */
+    margin: 10px 14px 3px 0px;
+}
+
 code {
     direction: ltr;
 }

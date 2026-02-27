@@ -18,15 +18,12 @@ menu:
         - name: Projects
           url: projects/
           weight: 20
-        - name: News
-          url: news/
-          weight: 30
         - name: Posts
           url: blog/
           weight: 40
-        - name: About Me
-          url: about/
-          weight: 50
+        # - name: About Me
+        #   url: about/
+        #   weight: 50
 
 params:
     description: "This is Alex Loitzl's personal website hosting research papers, curriculum vitae, and contact information."
@@ -44,7 +41,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["publications","projects","about"]
+    MainSections: ["publications","projects","posts"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -64,12 +61,10 @@ params:
               url: publications/
             - name: Projects
               url: projects/
-            - name: News
-              url: news/
             - name: Posts
               url: blog/
-            - name: About Me
-              url: about/
+            # - name: About Me
+            #   url: about/
     socialIcons:
         - name: GitHub
           url: https://github.com/alexloitzl

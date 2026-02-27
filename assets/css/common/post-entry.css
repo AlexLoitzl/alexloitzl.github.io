@@ -75,6 +75,15 @@
     -webkit-line-clamp: 8;
 }
 
+/* Render the links in the post summary */
+.entry-content a {
+    color: var(--darkcolor);
+}
+
+.entry-content a:hover {
+    text-decoration: underline;
+}
+
 .entry-footer {
     color: var(--content);
     font-size: var(--entrysize);

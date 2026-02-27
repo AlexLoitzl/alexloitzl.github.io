@@ -11,5 +11,5 @@ resources/
 *.auctex-auto
 *.out
 *.run.xml
-content/cv/*.pdf
+cv/*.pdf
 

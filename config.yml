@@ -29,7 +29,7 @@ params:
     description: "This is Alex Loitzl's personal website hosting research papers, curriculum vitae, and contact information."
     author: Alex Loitzl
     # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
+    DateFormat: "January, 2006"
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
@@ -66,13 +66,13 @@ params:
             - name: Bits
               url: bits/
     socialIcons:
+        - name: Email
+          url: "https://www.example.com"
         - name: GitHub
           url: https://github.com/alexloitzl
         - name: LinkedIn
           url: https://www.linkedin.com/in/alexander-loitzl
         # Email is custom to prevent scraping - It's overridden in layouts/partials/social_icons.html
-        - name: Email
-          url: "https://www.example.com"
         - name: CV
           url: cv.pdf
 

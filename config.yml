@@ -65,15 +65,15 @@ params:
               url: blog/
             - name: Bits
               url: bits/
-    # I will split social icons visually, with more casual ones after a | to be defined in funIcons
+    # Social icons are split into two categories: socialIcons for more important stuff and funIcons
     socialIcons:
+        # Email is custom to prevent scraping - It's overridden in layouts/partials/social_icons.html
         - name: Email
           url: "https://www.example.com"
         - name: GitHub
           url: https://github.com/alexloitzl
         - name: LinkedIn
           url: https://www.linkedin.com/in/alexander-loitzl
-        # Email is custom to prevent scraping - It's overridden in layouts/partials/social_icons.html
         - name: CV
           url: cv.pdf
     funIcons:

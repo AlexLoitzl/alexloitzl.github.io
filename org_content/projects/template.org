@@ -1,0 +1,26 @@
+#+title: <Title (less than 70 characters)>
+
+#+hugo_base_dir: ~/git/alexloitzl.github.io
+#+hugo_section: projects
+#+hugo_front_matter_format: yaml
+
+#+date: 2012-06-01
+#+hugo_custom_front_matter: :url <project_name>
+#+hugo_tags: <keyword1> <keyword2> <keyword3>
+#+description: <Post description for search engines (less than 155 characters)>
+#+hugo_custom_front_matter: :summary Post summary for list page (less than 265 characters)
+#+hugo_custom_front_matter: :DateFormat Jan 01, 2006
+#+hugo_custom_front_matter: :hideAuthor true
+#+hugo_custom_front_matter: :cover '((image . "paper_figure.png") (alt . "Figure title (preferable 1280x720px)") (relative . true))
+
+* content
+
+[[file:figure.png]]
+
+#+begin_src coq
+inductive false : prop :=.
+#+end_src
+
+* related material
+
+- [[file:presentation.pdf][presentation slides]]

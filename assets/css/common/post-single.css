@@ -181,7 +181,7 @@
     margin-inline-start: calc(var(--gap) * -2);
 }
 
-.post-content .highlight pre {
+.post-content highlight pre {
     margin: 0;
 }
 

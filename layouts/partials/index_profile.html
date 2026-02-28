@@ -68,7 +68,7 @@
         <strong style="margin-right: .5rem;">{{ .title }}</strong> ({{ .place }})<br>
         {{ .authors }}<br>
         {{- if .highlight}}
-        <em style="color: #fa9100">{{ .highlight }}</em><br>
+        <em style="color: var(--highlight)">{{ .highlight }}</em><br>
         {{- end}}
         {{- if .doi }}
             <a href="{{ .doi }}" target="_blank">DOI</a>

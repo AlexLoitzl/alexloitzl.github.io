@@ -16,9 +16,9 @@
     --code-block-bg: rgb(28, 29, 33);
     --code-bg: rgb(245, 245, 245);
     --border: rgb(238, 238, 238);
-/* Duck Yellow #ffb903  */
     --darkcolor: #6a7ba2;
     --lightcolor: #cbd1de;
+    --highlight: #fa9100;
     --semibold: 500;
     --homesize: 16px;
     --textsize: 18px;
@@ -41,6 +41,21 @@
     --code-block-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
+    /* Duck Yellow #ffb903  */
+    /* Non-papermod vars */
+    --darkcolor: #fa9100;
+    --lightcolor: #b36800;
+    --highlight: #b300b3;
+    --semibold: 500;
+    --homesize: 16px;
+    --textsize: 18px;
+    --h1size: 25px;
+    --entrysize: 15px;
+    --headersize: 16px;
+    --footersize: 13px;
+    --lineheight: 1.45;
+    --lineclamp: 8;
+    --marginleft: 26px;
 }
 
 .list {
@@ -50,3 +65,4 @@
 .dark.list {
     background: var(--theme);
 }
+

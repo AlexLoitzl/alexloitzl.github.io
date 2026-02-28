@@ -30,9 +30,9 @@ params:
     author: Alex Loitzl
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January, 2006"
-    defaultTheme: light
+    defaultTheme: auto
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -98,7 +98,8 @@ markup:
             unsafe: true
     highlight:
         guessSyntax: true
-        style: autumn 
+        style: autumn
+        noClasses: false
     tableOfContents:
         endLevel: 2
         ordered: false

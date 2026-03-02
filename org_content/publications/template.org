@@ -1,6 +1,6 @@
 #+title: <Title (less than 70 characters)>
 
-#+hugo_base_dir: ~/git/alexloitzl.github.io
+#+hugo_base_dir: ~/git/website
 #+hugo_section: publications
 #+hugo_front_matter_format: yaml
 

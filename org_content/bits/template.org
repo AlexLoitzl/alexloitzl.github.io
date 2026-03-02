@@ -1,6 +1,6 @@
 #+title: Title
 
-#+hugo_base_dir: ~/git/alexloitzl.github.io
+#+hugo_base_dir: ~/git/website
 #+hugo_section: bits
 #+hugo_front_matter_format: yaml
 

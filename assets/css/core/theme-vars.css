@@ -27,15 +27,15 @@
     --theme:          rgb(230, 234, 236); /* mallard flank grey — page background */
     --entry:          rgb(210, 214, 216); /* darker grey — card surface */
     --primary:        rgb(26, 30, 26);    /* near-black — main text */
-    --secondary:      rgb(106, 122, 106); /* muted grey-green — meta text */
+    --secondary:      rgb(47, 55, 47);
     --tertiary:       rgb(176, 182, 186); /* darker grey — hover tints */
     --gray:           rgb(140, 148, 150); /* mid grey — muted UI */
     --content:        rgb(26, 30, 26);    /* near-black — body text */
     --code-block-bg:  rgb(30, 42, 58);    /* Harlequin dark blue — code blocks */
     --code-bg:        rgb(220, 224, 226); /* light grey tint — inline code */
-    --border:         rgb(176, 182, 186); /* soft grey — dividers */
+    --border:         rgb(179, 142, 128); /* soft grey — dividers */
     --darkcolor:      rgb(58, 110, 58);   /* mallard green — links */
-    --lightcolor:     rgb(196, 210, 196); /* pale green tint — link hover/tint */
+    --lightcolor:     rgb(70, 134, 70); /* pale green tint — link hover/tint */
     --highlight:      rgb(237, 160, 29); /* beak yellow — highlights */
     --body_second:    rgb(116,83,70);
 
@@ -83,17 +83,18 @@
     /* --highlight:      rgb(168, 200, 232); /\* #A8C8E8 — pale ice blue — highlights *\/ */
 
     /* Yellow billed duck theme */
-    --theme:          rgb(26, 22, 18);    /* #1A1612 — dark brown-black — page background */
+    --theme:          rgb(34, 29, 22);    /* #1A1612 — dark brown-black — page background */
     --entry:          rgb(42, 35, 24);    /* #2A2318 — lifted dark brown — card surface */
     --primary:        rgb(237, 232, 224); /* #EDE8E0 — warm off-white — main text */
-    --secondary:      rgb(122, 110, 98);  /* #7A6E62 — grey-brown — meta text */
-    --tertiary:       rgb(18, 14, 10);    /* #120E0A — deep shadow — hover tints */
+    --secondary:      rgb(176, 166, 156);
+    --tertiary:       rgb(85, 77, 68);  /* #EDE8E0 — warm off-white — body text */
     --gray:           rgb(92, 74, 58);    /* #5C4A3A — warm dark brown — muted UI */
     --content:        rgb(237, 232, 224); /* #EDE8E0 — warm off-white — body text */
     --code-block-bg:  rgb(12, 10, 8);     /* #0C0A08 — near-black — code blocks */
     --code-bg:        rgb(18, 14, 10);    /* #120E0A — dark brown — inline code */
-    --border:         rgb(18, 14, 10);    /* #120E0A — deep shadow — dividers */
+    --border:         rgb(122, 110, 98);    /* #120E0A — deep shadow — dividers */
     --darkcolor:      rgb(46, 138, 122);  /* #2E8A7A — teal speculum — links */
+    --lightcolor:     rgb(46, 138, 122);  /* #2E8A7A — teal speculum — links */
     --lightcolor:     rgb(28, 62, 56);    /* #1C3E38 — dark teal tint — link hover */
     --highlight:      rgb(212, 184, 0);   /* #D4B800 — yellow beak — highlights */
     --body_second:    rgb(122, 110, 98);  /* #7A6E62 — grey-brown — meta text */

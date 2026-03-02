@@ -45,7 +45,7 @@
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if and site.Title (not .IsHome) }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }}">
-                {{- $label_text -}}
+                <span id="logo-name">{{- $label_text -}}</span>
             </a>
             {{- end }}
             <div class="logo-switches">

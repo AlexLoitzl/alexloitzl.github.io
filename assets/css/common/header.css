@@ -27,6 +27,15 @@
     font-weight: var(--semibold);
 }
 
+.logo a span#logo-name {
+    border-bottom: 2px solid transparent;
+}
+
+.logo a span#logo-name:hover {
+    border-bottom: 2px solid var(--darkcolor);
+}
+
+
 body.dark #icon-light { display: none; }
 body.dark #icon-dark { display: inline; }
 

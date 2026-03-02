@@ -64,7 +64,10 @@
                         height="{{- site.Params.label.iconHeight | default "30" -}}"
                         width="{{- site.Params.label.iconHeight | default "30" -}}">
                 {{- else }}
-                <img src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
+                <img class="icon-light" src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
+                    height="{{- site.Params.label.iconHeight | default "30" -}}"
+                    width="{{- site.Params.label.iconHeight | default "30" -}}">
+                <img class="icon-dark" src="{{- site.Params.label.icon_dark | absURL -}}" alt="" aria-label="logo"
                     height="{{- site.Params.label.iconHeight | default "30" -}}"
                     width="{{- site.Params.label.iconHeight | default "30" -}}">
                 {{- end -}}

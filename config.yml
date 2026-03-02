@@ -89,7 +89,9 @@ params:
         hiddenInSingle: true
     label:
       text: "Alex Loitzl"
-      icon: u1f424.svg
+      icon: yellow_beak.svg
+      icon_dark: mallard.svg
+      icon_light: yellow_beak.svg
       iconHeight: 18
 
 markup:

@@ -63,3 +63,9 @@
 .button:hover {
     background: var(--lightcolor);
 }
+.activities_type {
+    margin-right: .5rem;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    color: var(--body_second)
+}

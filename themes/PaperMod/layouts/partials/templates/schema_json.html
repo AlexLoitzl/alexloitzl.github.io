@@ -7,9 +7,9 @@
   "url": {{ site.Home.Permalink }},
   "description": {{ site.Params.description | plainify | truncate 180 | safeHTML }},
   {{- if (eq site.Params.schema.publisherType "Person") }}
-  "image": {{ site.Params.assets.favicon | default "u1f424.svg" | absURL }},
+  "image": {{ site.Params.assets.favicon | default "duckling.svg" | absURL }},
   {{- else }}
-  "logo": {{ site.Params.assets.favicon | default "u1f424.svg" | absURL }},
+  "logo": {{ site.Params.assets.favicon | default "duckling.svg" | absURL }},
   {{- end }}
   "sameAs": [
     {{- if site.Params.schema.sameAs }}
@@ -118,7 +118,7 @@
     "name": {{ site.Title }},
     "logo": {
       "@type": "ImageObject",
-      "url": {{ site.Params.assets.favicon | default "u1f424.svg" | absURL }}
+      "url": {{ site.Params.assets.favicon | default "duckling.svg" | absURL }}
     }
   }
 }

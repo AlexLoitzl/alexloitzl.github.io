@@ -7,22 +7,6 @@
     --footer-height: 70px;
     --radius: 8px;
 
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --gray: rgb(165, 165, 165);
-    --content: rgb(30, 30, 30);
-    --code-block-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
-    /* Non-papermod vars */
-    --darkcolor: rgb(106,123,162);
-    --lightcolor: rgb(203,209,222);
-    --highlight: rgb(250,145,0);
-
-
     /* Mallard duck theme */
     --theme:          rgb(230, 234, 236); /* mallard flank grey — page background */
     --entry:          rgb(210, 214, 216); /* darker grey — card surface */
@@ -52,36 +36,6 @@
 }
 
 .dark {
-    /* Original Theme */
-    /* --theme: rgb(29, 30, 32); */
-    /* --entry: rgb(46, 46, 51); */
-    /* --primary: rgb(218, 218, 219); */
-    /* --secondary: rgb(155, 156, 157); */
-    /* --tertiary: rgb(65, 66, 68); */
-    /* --content: rgb(196, 196, 197); */
-    /* --code-block-bg: rgb(46, 46, 51); */
-    /* --code-bg: rgb(55, 56, 62); */
-    /* --border: rgb(51, 51, 51); */
-    /* /\* Non-papermod vars *\/ */
-    /* --darkcolor: rgb(250,145,0); */
-    /* --lightcolor: rgb(179,104,0); */
-    /* --highlight: rgb(179,0,179); */
-
-    /* Harlequin duck theme */
-    /* --theme:          rgb(30, 42, 58);    /\* harlequin slate blue — page background *\/ */
-    /* --entry:          rgb(40, 52, 58);    /\* #28343A — lifted dark — card surface *\/ */
-    /* --primary:        rgb(240, 242, 245); /\* #F0F2F5 — crisp white — main text *\/ */
-    /* --secondary:      rgb(122, 138, 148); /\* #7A8A94 — muted slate — meta text *\/ */
-    /* --tertiary:       rgb(18, 24, 30);    /\* #12181E — deep shadow — hover tints *\/ */
-    /* --gray:           rgb(88, 105, 115);  /\* #586973 — mid slate — muted UI *\/ */
-    /* --content:        rgb(240, 242, 245); /\* #F0F2F5 — crisp white — body text *\/ */
-    /* --code-block-bg:  rgb(14, 18, 22);    /\* #0E1216 — near-black — code blocks *\/ */
-    /* --code-bg:        rgb(18, 24, 30);    /\* #12181E — dark — inline code *\/ */
-    /* --border:         rgb(18, 24, 30);    /\* #12181E — deep shadow — dividers *\/ */
-    /* --darkcolor:      rgb(200, 122, 74)  /\* #B8693A — rufous chestnut — links *\/ */
-    /* --lightcolor:     rgb(72, 52, 38);    /\* #483426 — dark brown tint — link hover *\/ */
-    /* --highlight:      rgb(168, 200, 232); /\* #A8C8E8 — pale ice blue — highlights *\/ */
-
     /* Yellow billed duck theme */
     --theme:          rgb(34, 29, 22);    /* #1A1612 — dark brown-black — page background */
     --entry:          rgb(42, 35, 24);    /* #2A2318 — lifted dark brown — card surface */

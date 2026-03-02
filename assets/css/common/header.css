@@ -72,6 +72,11 @@ body:not(.dark) #sun {
 }
 
 #menu .active {
+    border-bottom: 2px solid var(--highlight);
+}
+
+
+#menu li:hover a span {
     border-bottom: 2px solid var(--darkcolor);
 }
 

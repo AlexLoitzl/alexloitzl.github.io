@@ -42,6 +42,12 @@ body.dark #icon-dark { display: inline; }
 body:not(.dark) #icon-light { display: inline; }
 body:not(.dark) #icon-dark { display: none; }
 
+body.dark #icon-light-outline { display: none; }
+body.dark #icon-dark-outline { display: inline; }
+
+body:not(.dark) #icon-light-outline { display: inline; }
+body:not(.dark) #icon-dark-outline { display: none; }
+
 button#theme-toggle {
     font-size: 20px;
     margin: auto 4px;

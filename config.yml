@@ -92,6 +92,8 @@ params:
       icon: yellow_beak.svg
       icon_dark: mallard.svg
       icon_light: yellow_beak.svg
+      icon_dark_outline: mallard_outline.svg
+      icon_light_outline: yellow_beak_outline.svg
       iconHeight: 18
 
 markup:

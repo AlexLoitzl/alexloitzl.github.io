@@ -72,6 +72,34 @@
     <p>{{ .Summary | safeHTML }}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
+
+  {{- if .Params.rating }}
+  <div class="entry-rating">
+  <span>Rating: </span>
+  {{- $rating := .Params.rating }}
+  {{- range seq 5 }}
+      {{- if le . $rating }}
+        <img id="icon-light" src="{{- site.Params.label.icon_light | absURL -}}" alt="" aria-label="logo"
+             height="{{- site.Params.label.iconHeight | default "30" -}}"
+             width="{{- site.Params.label.iconHeight | default "30" -}}">
+        <img id="icon-dark" src="{{- site.Params.label.icon_dark | absURL -}}" alt="" aria-label="logo"
+             height="{{- site.Params.label.iconHeight | default "30" -}}"
+             width="{{- site.Params.label.iconHeight | default "30" -}}">
+        {{- else }}
+        <img id="icon-light-outline" src="{{- site.Params.label.icon_light_outline | absURL -}}" alt="" aria-label="logo"
+             height="{{- site.Params.label.iconHeight | default "30" -}}"
+             width="{{- site.Params.label.iconHeight | default "30" -}}">
+        <img id="icon-dark-outline" src="{{- site.Params.label.icon_dark_outline | absURL -}}" alt="" aria-label="logo"
+             height="{{- site.Params.label.iconHeight | default "30" -}}"
+             width="{{- site.Params.label.iconHeight | default "30" -}}">
+        {{- end }}
+  {{- end }}
+  {{- if .Params.ratingtext }}
+  <div class="entry-rating-text">{{ .Params.ratingtext }}</div>
+  {{- end }}
+  </div>
+  {{- end }}
+
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}

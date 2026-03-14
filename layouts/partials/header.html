@@ -51,7 +51,7 @@
             <div class="logo-switches">
                 {{- if (not site.Params.disableThemeToggle) }}
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <img id="icon-light" src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
+                    <img id="icon-light" src="{{- site.Params.label.icon_light | absURL -}}" alt="" aria-label="logo"
                         height="{{- site.Params.label.iconHeight | default "30" -}}"
                         width="{{- site.Params.label.iconHeight | default "30" -}}">
                     <img id="icon-dark" src="{{- site.Params.label.icon_dark | absURL -}}" alt="" aria-label="logo"

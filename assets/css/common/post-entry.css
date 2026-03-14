@@ -84,6 +84,20 @@
     text-decoration: underline;
 }
 
+.entry-rating {
+  font-size: 0.9rem;
+  margin: 4px 0;
+}
+
+.entry-rating-text {
+  margin: 5px 10px;
+  color: var(--secondary);
+}
+
+.entry-rating img {
+  vertical-align: middle;
+}
+
 .entry-footer {
     color: var(--content);
     font-size: var(--entrysize);
